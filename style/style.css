@@ -1,0 +1,395 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Open+Sans:wght@700;800&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Alkatra', cursive; */
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+.header{
+
+    background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    
+  
+    /* background-size: 600px; */
+    background-repeat: no-repeat;
+   
+    background-position: bottom right  ;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+nav h2{
+    cursor: pointer;
+    font-size: 45px;
+    padding-left: 200px;
+    font-family: Open Sans;
+}
+nav span{
+    color: #FD6E0A;
+    
+}
+
+nav ul{
+    display: flex;
+    /* padding: 30px ; */
+    padding-right: 40px;
+    font-family: Open Sans;
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 10px;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 18px;
+    font-style: normal;
+}
+.btn{
+    padding: 10px 30px;
+    background-color: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+}
+.btn:hover{
+    /* border: 2px solid #FD6E0A; */
+    background-color: #fff;
+    color: #FD6E0A;
+}
+.contact-btn{
+    border: 2px solid #FD6E0A;
+    background-color: #fff;
+    color: #FD6E0A;
+}
+.contact-btn:hover{
+    background-color: #FD6E0A;
+    color: #fff;
+
+}
+.heading-text{
+    /* padding-left: 220px; */
+    margin-top: 80px;
+   
+}
+.greeting{
+    color: #474747;
+    font-size: 40px;
+    font-style: normal;
+    font-family: Open Sans;
+}
+.heading-intro{
+    color: #181818;
+    font-size: 50px;
+    font-family: Open Sans;
+}
+
+.heading-description{
+    color: #757575;
+    font-size: 20px;
+    font-style: normal;
+    padding-bottom: 10px;
+    font-family: Open Sans;
+}
+
+.header-textimg{
+    display: flex;
+    padding: 30px 100px 0px 220px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ img{
+    width: 420px;
+    margin-right: 100px;
+    padding-top: 10px;
+   
+    
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+/* about section */
+
+.about{
+    margin-top: 90px;
+    margin-bottom: 80px;
+    padding: 100px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+}
+
+.section-title{
+    font-family: Open Sans;
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.about-description{
+    font-family: Open Sans;
+    color:  #757575;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+.about-info-container{
+    font-family: Open Sans;
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+
+.about-info h4{
+    color: #757575;
+    font-size: 20px;
+}
+
+.about-info p{
+    font-size: 20px;
+    color: #474747;
+}
+
+.doing-section-description{
+    font-family: Open Sans;
+    text-align: center;
+    width: 900px;
+    margin: auto;
+    padding-bottom: 40px;
+    font-size: 22px;
+
+}
+
+.skill-box{
+    font-family: Open Sans;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding-bottom: 100px;
+    
+}
+.box-1{
+   box-shadow: 0px 0px 1px  grey;
+   padding: 20px;
+   text-align: center;
+   
+ 
+}
+.box-1 h3,p{
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.box-1 img{
+    padding-left: 110px;
+    width: 180px;
+    padding-bottom: 20px;
+
+}
+
+.Resume{
+    font-family: Open Sans;
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.resume-section{
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.education{
+    font-family: Open Sans;
+    width: 40%;
+    height: 80vh;
+    /* background-color: #757575; */
+    /* padding: 20px; */
+   
+    
+}
+
+.education-heading{
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.education-topic , .education-uni {
+    padding-bottom: 7px;
+    padding-top: 10px;
+    padding-right: 200px;
+    
+}
+.education-topic{
+    text-align: left;
+    font-weight: bold;
+    color: #474747;
+    font-size: 15px;
+}
+.education-uni{
+    color: #757575;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+   
+}
+.education-description{
+    padding-right: 150px;
+    text-align: left;
+    color: #757575;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.resume-btn{
+    margin-top: 300px;
+    font-family: Open Sans;
+    margin-left: 40%;
+}
+
+.footer{
+    margin-top: 50px;
+    background-color: #FFF8F3;
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    padding-left: 150px;
+}
+
+.icons img{
+    width: 20px;
+    margin: 2px;
+   
+}
+
+.footer-heading{
+    font-family: Open Sans;
+    padding-left: 150px;
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    padding-bottom: 10px;
+
+}
+
+.footer-desctiption{
+    text-align: left;
+    padding-left: 150px;
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 20px;
+    
+    padding-bottom: 5px;
+}
+
+.footer-contact{
+    font-family: Open Sans;
+    padding-right: 200px;
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    padding-bottom: 10px;
+}
+.footer-2{
+    margin-right: 200px;
+}
+.footer-2 input{
+    display: block;
+    padding: 15px;
+    margin: 0 100px 20px 10px;
+    width: 400px;
+    border: 0px;
+   
+}
+
+
+#text{
+    padding: 15px;
+    margin: 0 100px 20px 10px;
+    width: 400px;
+    border: 0px;
+    font-family: Open Sans;
+}
+
+.footer-btn{
+    margin-right: 200px;
+}
+
+.hide{
+    display: none;
+}
+
+
+@media screen and (max-width:576px) {
+    .about-info-container{
+        flex-direction: column;
+    }
+    .about{
+        width: 100%;
+        padding: 50px;
+    }
+
+    .doing-section-description{
+        width: 100%;
+        padding: 10px;
+    }
+    .skill-box{
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .box-1{
+        box-shadow: 0px 0px 4px  grey;
+        padding: 10px;
+        text-align: center;
+        
+      
+     }
+     .Resume{
+        font-size: 25px;
+        margin-top: 40px;
+     }
+
+     .resume-section{
+        flex-direction: column;
+     }
+     .education{
+        width: 100%;
+        padding: 20px;
+     }
+
+     .resume-btn{
+        margin-top: 750px;
+        font-family: Open Sans;
+        margin-left: 90px;
+        margin-bottom: 50px;
+    }
+}
