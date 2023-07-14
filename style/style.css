@@ -267,11 +267,11 @@ main{
     font-size: 18px;
     padding-bottom: 30px;
 }
-.resume-btn{
+/* .resume-btn{
     margin-top: 300px;
     font-family: Open Sans;
     margin-left: 40%;
-}
+} */
 
 .footer{
     margin-top: 50px;
@@ -386,9 +386,9 @@ main{
         padding: 20px;
      }
 
-     .resume-btn{
+     /* .resume-btn{
         margin-top: 450px;
         margin-left: 20px;
         margin-bottom: 50px;
-    }
+    } */
 }
