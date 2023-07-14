@@ -187,7 +187,7 @@ main{
     display: flex;
     justify-content: space-around;
     gap: 20px;
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
     
 }
 .box-1{
@@ -273,8 +273,9 @@ main{
     margin-left: 40%;
 } */
 
+/* footer section */
 .footer{
-    margin-top: 50px;
+    margin-top: 200px;
     background-color: #FFF8F3;
     display: flex;
     justify-content: space-between;
@@ -370,10 +371,10 @@ main{
         box-shadow: 0px 0px 4px  grey;
         padding: 10px;
         text-align: center;
-        
-      
+        width: 80%;
+        margin-left: 50px;
      }
-     .Resume{
+     /* .Resume{
         font-size: 25px;
         margin-top: 40px;
      }
@@ -384,11 +385,50 @@ main{
      .education{
         width: 100%;
         padding: 20px;
-     }
+     } */
 
      /* .resume-btn{
         margin-top: 450px;
         margin-left: 20px;
         margin-bottom: 50px;
     } */
+    .footer{
+        flex-direction: column;
+        /* margin-top: 800px; */
+        margin-top: 40px;
+        
+    }
+
+    .footer-heading{
+        padding-left: 20px;
+        font-size: 25px;
+    }
+    .footer-desctiption{
+        padding-left: 20px;
+        font-size: 18px;
+    }
+    .icons{
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    .footer-2{
+        width: 100%;
+        padding-left: 20px;
+    }
+    .footer-2 input{
+        margin-left: 2px;
+        width: 300px;
+
+    }
+    .footer-contact{
+        font-size: 25px;
+    }
+    #text{
+        width: 300px;
+    }
+
+    .footer-btn{
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
 }
