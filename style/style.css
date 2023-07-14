@@ -372,7 +372,7 @@ main{
         padding: 10px;
         text-align: center;
         width: 80%;
-        margin-left: 50px;
+        margin-left: 45px;
      }
      /* .Resume{
         font-size: 25px;
@@ -430,5 +430,69 @@ main{
     .footer-btn{
         margin-left: 10px;
         margin-bottom: 20px;
+    }
+
+    .header{
+        background-image: none;
+        width: 106%;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav h2{
+        margin-right: 200px;
+    }
+    nav span{
+        color: #FD6E0A;
+        
+    }
+    
+    nav ul{
+        flex-direction: column;
+        margin-left: 50px;
+        
+    }
+    
+
+    
+    .heading-text{
+        margin-top: 20px;
+        margin-right: 70px; 
+        /* width: 70%; */
+
+    }
+    .greeting{
+        font-size: 30px; 
+        margin-left: -190px;
+    }
+    .heading-intro{
+        font-size: 24px;
+        margin-left: -190px;
+        padding-bottom: 10px;
+        /* width: 50%; */
+    }
+    
+    .heading-description{
+        margin-left: -190px;
+        font-size: 14px;
+        text-align: left;
+        
+    } 
+    
+    .header-textimg{
+        flex-direction: column-reverse;
+    }
+    
+     img{
+        width: 440px;
+        margin-right: 100px;
+        padding-top: 5px;
+       
+        
+    }
+    main{
+        max-width: 1140px;
+        margin: 0 auto;
+        
     }
 }
