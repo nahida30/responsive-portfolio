@@ -387,9 +387,9 @@ main{
      }
 
      .resume-btn{
-        margin-top: 200px;
-        font-family: Open Sans;
-        margin-left: 90px;
+        /* margin-top: 300px;
+        font-family: Open Sans; */
+        margin-left: 20px;
         margin-bottom: 50px;
     }
 }
